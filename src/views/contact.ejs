@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <%- include('partes/estilos')%>
+</head>
+
+<body>
+    <%- include('partes/nav')%>
+        <div class="container vh-100  justify-content-center text-center align-items-center  d-flex">
+            <div class="card ">
+                <h3>contact me</h3>
+
+            </div>
+            <div class="card-body justify-content-center text-center align-items-center  d-flex"
+                style="margin-left: 40px;  border: 2px solid; ">
+                
+                <form style="background-color: #202020; width: 150px;" >
+                    <div class="mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message">Message</label>
+                        <textarea name="text" rows="3"> </textarea>
+                    </div>
+                    <div class="mb-3 pb-1">
+                        <button class="btn btn-primary">
+                            save
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+            
+        </div>
+
+</body>
+
+</html>
